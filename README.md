@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="1000" alt="image" src="https://user-images.githubusercontent.com/6225588/211916659-567751d1-0225-402b-9141-4145c18b0834.png">
+  <img width="1000" alt="Caido Wordlist Plugin" src="https://user-images.githubusercontent.com/6225588/211916659-567751d1-0225-402b-9141-4145c18b0834.png">
 
   <br />
   <br />
@@ -18,24 +18,13 @@
   <hr />
 </div>
 
-# 🔰 StarterKit Plugin
+# 📝 Wordlist Plugin
 
-This is the starter kit for the Caido plugin system.
+Enhance your Caido applications with the **Wordlist Plugin**,
 
-This template is full-stack, with both a backend and frontend plugin. This is called a `plugin package`.
-For frontend only use the [frontend](https://github.com/caido/starterkit-plugin-frontend) starterkit.
+## 🚀 Features
 
-## 🏎️ Usage
-
-1. `pnpm install`
-1. Make some modifications in `src`
-1. `pnpm build`
-1. Upload the `plugin_package.zip` in the `dist` folder to your Caido instance
-
-## 🗒️ Release
-
-The Github Action `release` can be used to create a release of your `plugin package`.
-
-> If you want to sign your `plugin package`, you need an ed25519 private key named `PRIVATE_KEY` in your Github Action secrets.
-
-To release your plugin to the store, you have to follow a set of operations. Please check out our documentation on the subject.
+- **Dynamic Wordlist Management:** Easily add, modify, and delete word categories to suit your application's needs.
+- **Persistent Storage:** Stores wordlists using `localStorage`, ensuring your configurations are retained across sessions.
+- **User-Friendly Interface:** Intuitive UI with control buttons.
+- **Default Settings Restoration:** Quickly revert to default wordlists, removing all custom configurations.
