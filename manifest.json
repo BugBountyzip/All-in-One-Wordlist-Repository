@@ -1,30 +1,20 @@
 {
-  "id": "starterkit-plugin",
-  "name": "StarterKit Plugin",
-  "version": "0.1.0",
-  "description": "This is a starterkit plugin",
+  "id": "predefined-payload-generator",
+  "name": "Predefined Payload Generator",
+  "version": "0.1.3",
+  "description": "All-in-One Wordlist Repository",
   "author": {
-    "name": "Caido Labs Inc.",
-    "email": "dev@caido.io",
-    "url": "https://github.com/caido/starterkit-plugin"
+    "name": "Tur24Tur / BugBountyZip",
+    "email": "no-replay@NoBugEscapes.com",
+    "url": "hhttps://github.com/BugBountyzip/bugbounty.zip"
   },
   "plugins": [
     {
       "kind": "frontend",
-      "id": "caido-extra-commands",
-      "name": "Extra Commands",
+      "id": "predefined-payload-generator-frontend",
+      "name": "Predefined Payload Generator Frontend",
       "entrypoint": "frontend/script.js",
-      "style": "frontend/style.css",
-      "backend": {
-        "id": "caido-extra-commands-backend"
-      }
-    },
-    {
-      "kind": "backend",
-      "id": "caido-extra-commands-backend",
-      "name": "Extra Commands Backend",
-      "runtime": "javascript",
-      "entrypoint": "backend/script.js"
+      "style": "frontend/style.css"
     }
   ]
 }
